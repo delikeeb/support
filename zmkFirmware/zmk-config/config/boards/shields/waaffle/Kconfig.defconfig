@@ -1,0 +1,9 @@
+# Copyright (c) 2020 dELLIKEEb
+# SPDX-License-Identifier: MIT
+
+if SHIELD_WAAFFLE_REV3
+
+config ZMK_KEYBOARD_NAME
+	default "Waaffle rev3"
+
+endif

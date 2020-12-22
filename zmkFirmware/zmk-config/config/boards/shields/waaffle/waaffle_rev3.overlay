@@ -1,0 +1,9 @@
+#include "waaffle.dtsi"
+
+&rt01 {
+	status = "okay";
+};
+
+&rt02 {
+	status = "okay";
+};

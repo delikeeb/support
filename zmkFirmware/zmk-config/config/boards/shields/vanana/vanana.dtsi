@@ -1,0 +1,7 @@
+/*
+ * Copyright (c) 2020 dELLIKEEb
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/matrix-transform.h>

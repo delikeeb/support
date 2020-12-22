@@ -1,0 +1,5 @@
+# Copyright (c) 2020 dELLIKEEb
+# SPDX-License-Identifier: MIT
+
+config SHIELD_VANANA_REV2
+	def_bool $(shields_list_contains, waaffle_rev3)
