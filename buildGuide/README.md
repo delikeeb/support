@@ -1,4 +1,4 @@
-# `ncKiibs` Support Repository
+# General guide for selecting/sourcing parts
 
 This is a supporting repository for the keyboards that I made. All the keyboards here are a hobby project, and are not commercially available. 
 
