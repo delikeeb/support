@@ -59,9 +59,7 @@ If you want to add a middleware to prevent flexing in a FR4 case setup, the heig
 
 ## Where to buy?
 
-Below is the places that I check for parts. 
-
-Complied list
+Below are the places that I check for parts. 
 
 https://docs.google.com/spreadsheets/d/1yFxFad6Fp7bDsbbrUbymgozWEZLEjbd6_0tXTSnRA-c/edit?usp=sharing
 
