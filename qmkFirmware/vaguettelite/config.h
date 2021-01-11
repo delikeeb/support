@@ -17,13 +17,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#include "config_common.h"
+
 /* USB Device descriptor parameter */
-#define DEVICE_VER      0x0003
-#define PRODUCT         Waaffle_rev3
+#define VENDOR_ID    0x9906
+#define PRODUCT_ID   0x0011
+#define DEVICE_VER   0x0003
+#define MANUFACTURER dELIKEEb
+#define PRODUCT      Vaguette Lite
 
 /* key matrix size */
-#define MATRIX_ROWS 8
-#define MATRIX_COLS 10
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 12
 
 /*
  * Keyboard Matrix Assignments
@@ -35,8 +40,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { F4, B6, B2, B3, B1, F5, F6, F7 }
-#define MATRIX_COL_PINS { D3, D2, B5, B4, E6, D7, C6, D4, D0, D1 }
+#define MATRIX_ROW_PINS { F4, B3, D1, D2, D3, F5 }
+#define MATRIX_COL_PINS { F6, F7, B1, B2, B6, B5, B4, E6, D7, C6, D0, D4 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
@@ -47,12 +52,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define BACKLIGHT_BREATHING
 
 /*rotary encoder setting*/
-#define ENCODERS_PAD_A { B7, F1 }
-#define ENCODERS_PAD_B { D5, F0 }
+#define ENCODERS_PAD_A { D5, F1 }
+#define ENCODERS_PAD_B { B7, F0 }
 
 #define RGB_DI_PIN C7
 #ifdef RGB_DI_PIN
-#    define RGBLED_NUM 10
+#    define RGBLED_NUM 9
 #    define RGBLIGHT_HUE_STEP 8
 #    define RGBLIGHT_SAT_STEP 8
 #    define RGBLIGHT_VAL_STEP 8
@@ -89,27 +94,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* If defined, GRAVE_ESC will always act as ESC when CTRL is held.
  * This is useful for the Windows task manager shortcut (ctrl+shift+esc).
  */
-#define GRAVE_ESC_CTRL_OVERRIDE
+//#define GRAVE_ESC_CTRL_OVERRIDE
 
-/*
- * Force NKRO
- *
- * Force NKRO (nKey Rollover) to be enabled by default, regardless of the saved
- * state in the bootmagic EEPROM settings. (Note that NKRO must be enabled in the
- * makefile for this to work.)
- *
- * If forced on, NKRO can be disabled via magic key (default = LShift+RShift+N)
- * until the next keyboard reset.
- *
- * NKRO may prevent your keystrokes from being detected in the BIOS, but it is
- * fully operational during normal computer usage.
- *
- * For a less heavy-handed approach, enable NKRO via magic key (LShift+RShift+N)
- * or via bootmagic (hold SPACE+N while plugging in the keyboard). Once set by
- * bootmagic, NKRO mode will always be enabled until it is toggled again during a
- * power-up.
- *
- */
 //#define FORCE_NKRO
 
 /*
@@ -133,5 +119,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define NO_ACTION_FUNCTION
 
 /* Bootmagic Lite key configuration */
-#define BOOTMAGIC_LITE_ROW 6
-#define BOOTMAGIC_LITE_COLUMN 0
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 6
