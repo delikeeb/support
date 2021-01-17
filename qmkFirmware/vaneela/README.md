@@ -1,17 +1,19 @@
-# Flatbread60 Support Page
+# Vaneela
 
-![vaneelaMain](README.assets/vaneelaMain.jpg)
+![vaneela](https://i.imgur.com/wp64G8vl.jpg)
 
-## Pinout
+This is a semi-staggered 5x12 keyboard made by a hobbist. Vaneela runs on Pro Micro and its compatible variants, such as elite-C. In matrix wise, it has the same key layout as other 5 x 12 ortholinear boards. 
 
-MATRIX_ROW_PINS { F6, F7, B3, B2, B6 }
+* Keyboard Maintainer: [noclew](https://github.com/noclew)
+* Hardware Supported: Vaneela
+* Hardware Availability: Not commercially available, but the board fabricaion file will be uploaded in the near future.
 
-MATRIX_COL_PINS { F4, F5, B5, B4, E6, D7, C6, D4, D0, D1, D2, D3 }
+Make example for this keyboard (after setting up your build environment):
 
-## Firmware
+    make nckiibs/vaneela:default
 
-I will push the firmware to the official QMK repo, so that you can use QMK configurator. Until then, you can compile the firmware using the raw file in the designated directory with a conventional QMK dev setup. Or, you can use the complied .hex file with QMK toolbox. The comilpled file has a `almost default` Preonic 48 key layout. Please check `keymap.c` file. 
+Flashing example for this keyboard:
+    
+    make nckiibs/vaneela:default:flash
 
-## Housing Materials
-
-- STL file for 3D printed middleware is uploaded, which is 16mm in height.
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
