@@ -210,7 +210,10 @@ If you are building a wired build, you can skip this section. I personally found
 
 **Parts you need:**
 
-- 9 x Long Dupont cable
+- 2 x Long Dupont cable (for an external power switch connection)
+- 2 x Long Dupont cable (for an external power switch connection)
+- 3 x Short Dupont cable (for a MCU board connection)
+- 2 x Short Dupont cable (for a battery connection)
 - 4 x Short m2 screws
 - 4 x m2 nuts
 
