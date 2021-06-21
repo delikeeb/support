@@ -74,7 +74,7 @@ On the Group buy version, all the essential parts are pre-soldered, which includ
 - Reset switch
 - RGB Underglow LEDs
 
-You only need to solder a few parts on PCB and assemble an MCU board on it. ![02-PCB Layout@2x](Vanana-BuildGuide-rev2.5.assets/02-PCB Layout@2x.png)
+You only need to solder a few parts on PCB and assemble an MCU board on it. ![02-PCB Layout@2x](Vanana-BuildGuide-rev2.5.assets/02-PCBLayout@2x.png)
 
 **Parts you need:**
 
@@ -106,7 +106,7 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 
 - ![17-Switch placement@2x](Vanana-BuildGuide-rev2.5.assets/17-SwitchPlacement@2x.png)
 
-- ![09-encoder soldered@2x](Vanana-BuildGuide-rev2.5.assets/09-encoder soldered@2x.png)
+- ![09-encoder soldered@2x](Vanana-BuildGuide-rev2.5.assets/09-encoderSoldered@2x.png)
 
 
 
