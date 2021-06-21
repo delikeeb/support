@@ -85,7 +85,7 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 **Steps**:
 
 1. Insert ultra-low profile sockets (for a hot-swap build) **or** straight pin headers (for a soldered build) from the back of the PCB. The photo below shows compatible sockets and headers. You will use **one of them** depending on your build. Make sure the height of the insulations of the header or sockets (black plastic part in the photo below) are less than or equal to 3mm. Most straight pin headers that come with MCU boards have insulations whose height is less than 3mm. Masking tape will help you secure the parts when soldering them. Solder MCU sockets or headers from the front of the PCB.
-   ![06-MCU socket@2x](Vanana-BuildGuide-rev2.5.assets/06-MCU socket@2x.png)
+   ![06-MCU socket@2x](Vanana-BuildGuide-rev2.5.assets/06-MCUSocket@2x.png)
 2. Note that there are two onboard switches on both sides of the PCB. One is for RGB, and the other is for the Power switch. (Down: OFF/ Up: ON). If you are building a **wired Vanana, just toggle up the switches and skip to the next section (Step 2. Switch Plate Assembly). If you are building a wireless Vanana with a plate case kit**, you can also skip to the next section.
    ![03-nboardSwitches@2x](Vanana-BuildGuide-rev2.5.assets/03-nboardSwitches@2x.png)
 3. If you are building a **wireless Vanana with 3D printed cases**, it is time to solder 3 x 2-pos right-angle pin headers to use external switches and batteries. 
@@ -94,7 +94,7 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 - - Note that there are two types of right-angle headers included. Use the one with an insulation perpendicular to the PCB for this step. The other one will be used to mod an MCU board.
     ![04-Headers@2x](Vanana-BuildGuide-rev2.5.assets/04-Headers@2x.png)
   - Prepare the headers as shown in the photo. Place the right-angle pin headers on the back of the PCB. You may want to use tape to secure the header. Solder the pin headers from the front of the PCB. Place the header pins flat on the PCB. 
-    ![05-headers split@2x](Vanana-BuildGuide-rev2.5.assets/05-headers split@2x.png)
+    ![05-headers split@2x](Vanana-BuildGuide-rev2.5.assets/05-headersSplit@2x.png)
   - Solder the right angle headers onto the PCB as shown in the photo. Masking tape will help you secure the parts. There are three places to install the 2-pos headers. Place the headers on the back of the PCB, and solder them from the front. 
     ![08-slideSwitchPin@2x](Vanana-BuildGuide-rev2.5.assets/08-slideSwitchPin@2x.png)
 
@@ -104,7 +104,7 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 
 - -  A rotary encoder at position 1 is supported by all Pro Micro compatibles and Nice!nano by default. However, only Nice!nano and Elite-C supports a rotary encoder at position 2 because it uses extra GPIO pins on Elite-C and Nano, which will be covered in the later section. Likewise, RGB underglow is supported only with Elite-C and Nice!Nano.
 
-- ![17-Switch placement@2x](Vanana-BuildGuide-rev2.5.assets/17-Switch placement@2x.png)
+- ![17-Switch placement@2x](Vanana-BuildGuide-rev2.5.assets/17-SwitchPlacement@2x.png)
 
 - ![09-encoder soldered@2x](Vanana-BuildGuide-rev2.5.assets/09-encoder soldered@2x.png)
 
@@ -123,10 +123,10 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 
 1. You are free to change the positions of screws at your preference. The ones marked red in the photo above are the recommended locations.![10-screwPos@2x](Vanana-BuildGuide-rev2.5.assets/10-screwPos@2x.png)
 2. Insert screws into the switch plate from the top.![12-PlateScrew@2x](Vanana-BuildGuide-rev2.5.assets/12-PlateScrew@2x.png)
-3. Insert **short M2 standoffs/spacers** (4mm one in GB version kits) and tighten them. You can do this by hand. However, if you want a rock-solid build, use a small plier to hold the standoffs/spacers and an m2 hex screwdriver to tighten them). ![11-Artboard 25@2x](Vanana-BuildGuide-rev2.5.assets/11-Artboard 25@2x.png)
+3. Insert **short M2 standoffs/spacers** (4mm one in GB version kits) and tighten them. You can do this by hand. However, if you want a rock-solid build, use a small plier to hold the standoffs/spacers and an m2 hex screwdriver to tighten them). ![11-Artboard 25@2x](Vanana-BuildGuide-rev2.5.assets/11-spacers@2x.png)
 4. Assemble the PCB and the switch plate. Place **the long standoffs** and tighten them.  
    ![14-pcbPlateassemb@2x](Vanana-BuildGuide-rev2.5.assets/14-pcbPlateassemb@2x.png)
-   ![15-pcb plate done@2x](Vanana-BuildGuide-rev2.5.assets/15-pcb plate done@2x.png)
+   ![15-pcb plate done@2x](Vanana-BuildGuide-rev2.5.assets/15-pcbPlateDone@2x.png)
 
 
 
@@ -141,10 +141,10 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 1. Vanana GB version supports three layouts. Choose your layout and insert switches into the appropriate positions.
    <img src="Vanana-BuildGuide-rev2.5.assets/16-Layout@2x.png" alt="16-Layout@2x" style="zoom:80%;" />
 2. Plate switches on the plate. Make sure that all the switches are fully inserted into the holes on the plate. 
-   <img src="Vanana-BuildGuide-rev2.5.assets/18-Switch note@2x.png" alt="18-Switch note@2x" style="zoom:80%;" />
+   <img src="Vanana-BuildGuide-rev2.5.assets/18-SwitchNote@2x.png" alt="18-Switch note@2x" style="zoom:80%;" />
 3. Solder the key switches from the back of the PCB. 
-   <img src="Vanana-BuildGuide-rev2.5.assets/19-Switch soldered@2x.png" alt="19-Switch soldered@2x" style="zoom:80%;" />
-   <img src="Vanana-BuildGuide-rev2.5.assets/20-switch done@2x.png" alt="20-switch done@2x" style="zoom:80%;" />
+   <img src="Vanana-BuildGuide-rev2.5.assets/19-SwitchSoldered@2x.png" alt="19-Switch soldered@2x" style="zoom:80%;" />
+   <img src="Vanana-BuildGuide-rev2.5.assets/20-switchDone@2x.png" alt="20-switch done@2x" style="zoom:80%;" />
 
 
 
@@ -166,7 +166,7 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 
 - ![21-0305@2x](Vanana-BuildGuide-rev2.5.assets/21-0305@2x.png)
 
-- ![22-0305 finished@2x](Vanana-BuildGuide-rev2.5.assets/22-0305 finished@2x.png)
+- ![22-0305 finished@2x](Vanana-BuildGuide-rev2.5.assets/22-0305Finished@2x.png)
 
 ### Step 4. MCU board Assembly (and mod).
 
@@ -179,13 +179,13 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 
 1. (**optional**) If you use Elite-C or Nice!nano, and want to enable RGB underglow or the rotary encoder at position 2, the following mod will be useful. We use Dupont cable for easier maintenance
 
-- - My preferred way of doing this is to place a right-angle header, cut the excessive header pins, secure the header pins with masking tape, and solder them on the board. ![23-MCU mod@2x](Vanana-BuildGuide-rev2.5.assets/23-MCU mod@2x.png)
+- - My preferred way of doing this is to place a right-angle header, cut the excessive header pins, secure the header pins with masking tape, and solder them on the board. ![23-MCU mod@2x](Vanana-BuildGuide-rev2.5.assets/23-MCUMod@2x.png)
 
 2. If you used regular straight pin headers, place the MCU board on it and solder them. If you used ultra-low profile hot-swap sockets, place the MCU board on it, insert compatible machine pins, and solder them.
 
 3. (**optional**) Connect the extra GPIO pins of the MCU board to PCB using the **short** Dupont cables included, if you want to enable RGB underglow or to use the encoder at position 2. 
 
-   ![24-MCU conn@2x](Vanana-BuildGuide-rev2.5.assets/24-MCU conn@2x.png)
+   ![24-MCU conn@2x](Vanana-BuildGuide-rev2.5.assets/24-MCUConn@2x.png)
 
 
 
@@ -204,14 +204,14 @@ If you are building a wired Vanana, you can skip this section.
 **Steps:**
 
 1. Prepare slide switches as shown below using **long** Dupont cables. 
-   ![25-switch assem@2x](Vanana-BuildGuide-rev2.5.assets/25-switch assem@2x.png)
+   ![25-switch assem@2x](Vanana-BuildGuide-rev2.5.assets/25-switchAssem@2x.png)
 
 2. Place the external switches and assemble them with short m2 screws and nuts. 
 
    - My preferred way to do this step is to hold the nuts with a precision tweezer and tighten the screws using an m2 hex screwdriver from the other side. Connect the switches to the PCB using the long Dupont cables.
    - Note that the on/off directions of the switches depend on the cable arrangement in this step.
 
-   ![26-switch install@2x](Vanana-BuildGuide-rev2.5.assets/26-switch install@2x.png)
+   ![26-switch install@2x](Vanana-BuildGuide-rev2.5.assets/26-switchInstall@2x.png)
 
 3. Prepare the battery of your choice. 
 
@@ -222,7 +222,7 @@ If you are building a wired Vanana, you can skip this section.
 - - **IMPORTANT**!!: The battery pinout on the board has polarity. **MAKE SURE TO CONNECT THE WIRES OF A BATTERY TO THE RIGHT SPOT**. In most cases, the red wire of a battery is +, and the black is -. However, double-check the polarity of your battery.
   - To secure the battery onto the case, you may want to use a thin double-sided tape. Also, if you are using 0305 hot-swap sockets, the tip of the sockets may touch your battery when you close the case. Consider applying a thin non-conductive electrical tape to prevent the sockets to poke into the battery.
 
-- ![27-cable conn@2x](Vanana-BuildGuide-rev2.5.assets/27-cable conn@2x.png)
+- ![27-cable conn@2x](Vanana-BuildGuide-rev2.5.assets/27-cableConn@2x.png)
 
 
 
@@ -241,19 +241,19 @@ If you are building a wired Vanana, you can skip this section.
    ![28-assembly@2x](Vanana-BuildGuide-rev2.5.assets/28-assembly@2x.png)
 
 2. Close the PCB assembly on the case.
-    ![29-case assembly1@2x](Vanana-BuildGuide-rev2.5.assets/29-case assembly1@2x.png)
+    ![29-case assembly1@2x](Vanana-BuildGuide-rev2.5.assets/29-caseAssembly1@2x.png)
 
 3. Assemble the PCB assembly and the case using m2 nuts and washers.
 
    - Washers are optional. However, it will help reduce the possible damage to the case, which could be caused by over-tightening nuts or prolonged time of use. 
 
-   ![30-case assembly2@2x](Vanana-BuildGuide-rev2.5.assets/30-case assembly2@2x.png)
+   ![30-case assembly2@2x](Vanana-BuildGuide-rev2.5.assets/30-caseAssembly2@2x.png)
 
 4. Install the nuts included. Do not overtight the nuts. The nut we are using has a nylon insert, so it will lock in position without overtightening. 
-    ![31-lock nut@2x](Vanana-BuildGuide-rev2.5.assets/31-lock nut@2x.png)
+    ![31-lock nut@2x](Vanana-BuildGuide-rev2.5.assets/31-lockNut@2x.png)
 
 5. Place rubber pad on the feet. 
-   ![32-urbber feet@2x](Vanana-BuildGuide-rev2.5.assets/32-urbber feet@2x.png)
+   ![32-urbber feet@2x](Vanana-BuildGuide-rev2.5.assets/32-rurbberFeet@2x.png)
 
 ### Step 7. Enjoy Vanana
 
