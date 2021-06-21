@@ -1,5 +1,3 @@
-#  
-
 # Vanana (rev 2.5 GB) Build Guide
 
 Last Update: 210620
@@ -90,23 +88,17 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
    ![03-nboardSwitches@2x](Vanana-BuildGuide-rev2.5.assets/03-nboardSwitches@2x.png)
 3. If you are building a **wireless Vanana with 3D printed cases**, it is time to solder 3 x 2-pos right-angle pin headers to use external switches and batteries. 
    - At the time of designing the board, the RGB switch was added to cut off the quiescent current draw of RGB LEDs. Now the software RGB control of ZMK is equivalent to the hardware switch, so you can skip soldering the RGB switch header pin if you do not mind using a software switch to control RGB underglow.
+   - Note that there are two types of right-angle headers included. Use the one with an insulation perpendicular to the PCB for this step. The other one will be used to mod an MCU board.
+     ![04-Headers@2x](Vanana-BuildGuide-rev2.5.assets/04-Headers@2x.png)
 
-- - Note that there are two types of right-angle headers included. Use the one with an insulation perpendicular to the PCB for this step. The other one will be used to mod an MCU board.
-    ![04-Headers@2x](Vanana-BuildGuide-rev2.5.assets/04-Headers@2x.png)
-  - Prepare the headers as shown in the photo. Place the right-angle pin headers on the back of the PCB. You may want to use tape to secure the header. Solder the pin headers from the front of the PCB. Place the header pins flat on the PCB. 
-    ![05-headers split@2x](Vanana-BuildGuide-rev2.5.assets/05-headersSplit@2x.png)
-  - Solder the right angle headers onto the PCB as shown in the photo. Masking tape will help you secure the parts. There are three places to install the 2-pos headers. Place the headers on the back of the PCB, and solder them from the front. 
-    ![08-slideSwitchPin@2x](Vanana-BuildGuide-rev2.5.assets/08-slideSwitchPin@2x.png)
+- Prepare the headers as shown in the photo. Place the right-angle pin headers on the back of the PCB. You may want to use tape to secure the header. Solder the pin headers from the front of the PCB. Place the header pins flat on the PCB. 
+  ![05-headers split@2x](Vanana-BuildGuide-rev2.5.assets/05-headersSplit@2x.png)
+- Solder the right angle headers onto the PCB as shown in the photo. Masking tape will help you secure the parts. There are three places to install the 2-pos headers. Place the headers on the back of the PCB, and solder them from the front. 
+  ![08-slideSwitchPin@2x](Vanana-BuildGuide-rev2.5.assets/08-slideSwitchPin@2x.png)
 
 4. If you want to enable RGB underglow or the encoder at position 2, solder the header on the PCB as below. The procedure is the same as the step above. ![07-GPIO@2x](Vanana-BuildGuide-rev2.5.assets/07-GPIO@2x.png)
-
 5. If you are going to use rotary encoders, solder it on the PCB.
-
-- -  A rotary encoder at position 1 is supported by all Pro Micro compatibles and Nice!nano by default. However, only Nice!nano and Elite-C supports a rotary encoder at position 2 because it uses extra GPIO pins on Elite-C and Nano, which will be covered in the later section. Likewise, RGB underglow is supported only with Elite-C and Nice!Nano.
-
-- ![17-Switch placement@2x](Vanana-BuildGuide-rev2.5.assets/17-SwitchPlacement@2x.png)
-
-- ![09-encoder soldered@2x](Vanana-BuildGuide-rev2.5.assets/09-encoderSoldered@2x.png)
+   - A rotary encoder at position 1 is supported by all Pro Micro compatibles and Nice!nano by default. However, only Nice!nano and Elite-C supports a rotary encoder at position 2 because it uses extra GPIO pins on Elite-C and Nano, which will be covered in the later section. Likewise, RGB underglow is supported only with Elite-C and Nice!Nano.![17-Switch placement@2x](Vanana-BuildGuide-rev2.5.assets/17-SwitchPlacement@2x.png)![09-encoder soldered@2x](Vanana-BuildGuide-rev2.5.assets/09-encoderSoldered@2x.png)
 
 
 
@@ -138,6 +130,8 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 
 - 60 x keyboard switches
 
+**Steps:**
+
 1. Vanana GB version supports three layouts. Choose your layout and insert switches into the appropriate positions.
    <img src="Vanana-BuildGuide-rev2.5.assets/16-Layout@2x.png" alt="16-Layout@2x" style="zoom:80%;" />
 2. Plate switches on the plate. Make sure that all the switches are fully inserted into the holes on the plate. 
@@ -159,14 +153,9 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 **Steps:**
 
 1. If your build is hot-swappable, you will use 0305 or 7305 hot-swap sockets. Place hot-swap sockets into the switch holes on the PCB. A precision tweezer will be your timesaver. 
-
-- - My favorite way of installing 0305 sockets is to solder them on one or two columns at a time. Plate them on the PCB and secure them with masking tape. Then, solder sockets from the back of the PCB. Repeat until you get all the sockets soldered.
-  - If this is the first time, I highly recommend practicing with at least a few sockets on a scrap board. It is not hard, but you need to progress slowly with patience. Check video [tutorials](https://www.youtube.com/watch?v=wmkTVsZ97Vk).
-  - Do not put an excessive amount of soldering iron. Use the amount of solder iron that is just enough to fill the gaps between the socket and the hole. Less is better than more in doing this. 
-
-- ![21-0305@2x](Vanana-BuildGuide-rev2.5.assets/21-0305@2x.png)
-
-- ![22-0305 finished@2x](Vanana-BuildGuide-rev2.5.assets/22-0305Finished@2x.png)
+   - My favorite way of installing 0305 sockets is to solder them on one or two columns at a time. Plate them on the PCB and secure them with masking tape. Then, solder sockets from the back of the PCB. Repeat until you get all the sockets soldered.
+   - If this is the first time, I highly recommend practicing with at least a few sockets on a scrap board. It is not hard, but you need to progress slowly with patience. Check video [tutorials](https://www.youtube.com/watch?v=wmkTVsZ97Vk).
+   - Do not put an excessive amount of soldering iron. Use the amount of solder iron that is just enough to fill the gaps between the socket and the hole. Less is better than more in doing this. ![21-0305@2x](Vanana-BuildGuide-rev2.5.assets/21-0305@2x.png)![22-0305 finished@2x](Vanana-BuildGuide-rev2.5.assets/22-0305Finished@2x.png)
 
 ### Step 4. MCU board Assembly (and mod).
 
@@ -178,8 +167,7 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 **Steps:**
 
 1. (**optional**) If you use Elite-C or Nice!nano, and want to enable RGB underglow or the rotary encoder at position 2, the following mod will be useful. We use Dupont cable for easier maintenance
-
-- - My preferred way of doing this is to place a right-angle header, cut the excessive header pins, secure the header pins with masking tape, and solder them on the board. ![23-MCU mod@2x](Vanana-BuildGuide-rev2.5.assets/23-MCUMod@2x.png)
+   - My preferred way of doing this is to place a right-angle header, cut the excessive header pins, secure the header pins with masking tape, and solder them on the board. ![23-MCU mod@2x](Vanana-BuildGuide-rev2.5.assets/23-MCUMod@2x.png)
 
 2. If you used regular straight pin headers, place the MCU board on it and solder them. If you used ultra-low profile hot-swap sockets, place the MCU board on it, insert compatible machine pins, and solder them.
 
@@ -219,10 +207,8 @@ If you are building a wired Vanana, you can skip this section.
 
 4. Connect the battery to the PCB using the long Dupont cable. 
 
-- - **IMPORTANT**!!: The battery pinout on the board has polarity. **MAKE SURE TO CONNECT THE WIRES OF A BATTERY TO THE RIGHT SPOT**. In most cases, the red wire of a battery is +, and the black is -. However, double-check the polarity of your battery.
-  - To secure the battery onto the case, you may want to use a thin double-sided tape. Also, if you are using 0305 hot-swap sockets, the tip of the sockets may touch your battery when you close the case. Consider applying a thin non-conductive electrical tape to prevent the sockets to poke into the battery.
-
-- ![27-cable conn@2x](Vanana-BuildGuide-rev2.5.assets/27-cableConn@2x.png)
+   - **IMPORTANT**!!: The battery pinout on the board has polarity. **MAKE SURE TO CONNECT THE WIRES OF A BATTERY TO THE RIGHT SPOT**. In most cases, the red wire of a battery is +, and the black is -. However, double-check the polarity of your battery.
+   - To secure the battery onto the case, you may want to use a thin double-sided tape. Also, if you are using 0305 hot-swap sockets, the tip of the sockets may touch your battery when you close the case. Consider applying a thin non-conductive electrical tape to prevent the sockets to poke into the battery.![27-cable conn@2x](Vanana-BuildGuide-rev2.5.assets/27-cableConn@2x.png)
 
 
 
@@ -254,6 +240,10 @@ If you are building a wired Vanana, you can skip this section.
 
 5. Place rubber pad on the feet. 
    ![32-urbber feet@2x](Vanana-BuildGuide-rev2.5.assets/32-rurbberFeet@2x.png)
+
+
+
+
 
 ### Step 7. Enjoy Vanana
 
