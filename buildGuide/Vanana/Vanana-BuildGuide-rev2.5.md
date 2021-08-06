@@ -79,7 +79,7 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 - Ultra-low MCU board sockets **or** straight pin headers. 
 - (wireless setup only) 3 x 2-pos Right angle headers.
 - (Optional for RGB underglow and the encoder 2) 1 x 3-pos (or 5) Right angle header.
-- **Note*: with GB version PCBs, you can use a right-angle header with a parallel insulation for the external switches and battery connections. Extra GPIOs will still need one with a perpendicular insulation.**  
+- **Note*: with GB version PCBs, you can use a right-angle header with a parallel insulation for external switches and battery connections. Extra GPIOs will still need the one with a perpendicular insulation.**  
 
 **Steps**:
 
