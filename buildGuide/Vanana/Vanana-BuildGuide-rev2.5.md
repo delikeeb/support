@@ -168,13 +168,13 @@ You only need to solder a few parts on PCB and assemble an MCU board on it. ![02
 **Steps:**
 
 1. (**optional**) If you use Elite-C or Nice!nano, and want to enable RGB underglow or the rotary encoder at position 2, the following mod will be useful. We use Dupont cable for easier maintenance
-   - My preferred way of doing this is to place a right-angle header, cut the excessive header pins, secure the header pins with masking tape, and solder them on the board. ![23-MCU mod@2x](Vanana-BuildGuide-rev2.5.assets/23-MCUMod@2x.png)
+   - My preferred way of doing this is to place a right-angle header, cut the excessive header pins, secure the header pins with masking tape, and solder them on the board. ![23-MCU mod@2x](Vanana-BuildGuide-rev2.5.assets/23-MCU mod@2x.png)
 
 2. If you used regular straight pin headers, place the MCU board on it and solder them. If you used ultra-low profile hot-swap sockets, place the MCU board on it, insert compatible machine pins, and solder them.
 
 3. (**optional**) Connect the extra GPIO pins of the MCU board to PCB using the **short** Dupont cables included, if you want to enable RGB underglow or to use the encoder at position 2. 
 
-   ![24-MCU conn@2x](Vanana-BuildGuide-rev2.5.assets/24-MCUConn@2x.png)
+   ![24-MCU conn@2x](Vanana-BuildGuide-rev2.5.assets/24-MCU conn@2x.png)
 
 
 
