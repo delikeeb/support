@@ -8,6 +8,7 @@
 *.kicad_pcb-bak
 *.sch-bak
 *.3dmbak
+*.dxfbak
 *~
 
 _autosave-*
